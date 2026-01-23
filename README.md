@@ -1,1 +1,1 @@
-# HEProAI-AI-and-ML-Internship
+# HEProAI AI and-ML-Internship

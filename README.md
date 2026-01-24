@@ -10,4 +10,4 @@ This repository contains the foundational dataset and profiling documentation fo
 
 2. data_generation.py: The Python logic used for data creation and pattern injection.
 
-3. HEPro_Activity1_Report.pdf: Comprehensive data dictionary and behavioral analysis report.
+3. Data Dictionary & Behavioral Analysis.pdf: Comprehensive data dictionary and behavioral analysis report.

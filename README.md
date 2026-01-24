@@ -1,4 +1,4 @@
-# HEProAI AI and ML Internship
+# HEProAI: AI and ML Internship
 ## Activity: 01 - Dataset Design & Student Profiling
 
 ### 1. Project Overview:

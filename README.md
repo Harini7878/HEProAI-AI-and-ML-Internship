@@ -22,4 +22,4 @@ In this phase, I developed the Scoring & Classification Layer for the system. Th
    
 2. student_scores.csv: The updated dataset with calculated scores and categories.
    
-3. ScoringLogic.pdf: Technical report detailing formulas and validation.
+3. Scoring_Logic_and_Thresholds_Explanation.pdf: Technical report detailing formulas and validation.

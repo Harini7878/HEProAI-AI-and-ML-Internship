@@ -18,4 +18,8 @@ This repository contains the foundational dataset and profiling documentation fo
 In this phase, I developed the Scoring & Classification Layer for the system. This module processes multi-dimensional feature vectors to calculate standardized performance scores and a holistic Student Readiness Index (SRI).The system enables proactive mentoring by automatically flagging students based on their academic, wellness and career readiness states. 
 
 ### 2. Repository Contents:
-student_scoring.py: Python script containing normalization and scoring logic.student_scores.csv: The updated dataset with calculated scores and categories.HEPro_Activity2_ScoringLogic.pdf: Technical report detailing formulas and validation.
+1. student_scoring.py: Python script containing normalization and scoring logic.
+   
+2. student_scores.csv: The updated dataset with calculated scores and categories.
+   
+3. ScoringLogic.pdf: Technical report detailing formulas and validation.

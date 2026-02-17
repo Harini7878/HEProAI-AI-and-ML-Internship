@@ -23,3 +23,19 @@ In this phase, I developed the Scoring & Classification Layer for the system. Th
 2. student_scores.csv: The updated dataset with calculated scores and categories.
    
 3. Scoring_Logic_and_Thresholds_Explanation.pdf: Technical report detailing formulas and validation.
+
+
+## Activity 3: Machine Learning - Student Segmentation & Risk Detection
+
+### Overview
+In this phase, I shifted from rule-based scoring to **Unsupervised Machine Learning**. Using the K-Means clustering algorithm, I segmented the student population into four distinct behavioral groups. This allows the system to detect "hidden" risk patterns such as students with high grades but dangerously low wellness scores that traditional threshold based systems might overlook.
+
+### Key Machine Learning Tasks:
+* **Data Preprocessing:** Standardizing features (APS, WWS, PTMS, CRS) to ensure distance-based clustering accuracy.
+* **K-Means Clustering:** Iterative grouping of students into 4 clusters based on multi-dimensional similarity.
+* **Segment Analysis:** Mapping clusters to specific personas like "Burnout Risk" and "High Performer."
+
+### Repository Contents:
+* `student_segmentation.ipynb`: The notebook containing the ML pipeline and visualization.
+* `Cluster_Interpretation.pdf`: Detailed analysis of the 4 detected student groups.
+* `Recommendations for Each Cluster Type.pdf`: Targeted intervention strategies for each cluster.

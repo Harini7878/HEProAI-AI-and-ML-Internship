@@ -27,15 +27,15 @@ In this phase, I developed the Scoring & Classification Layer for the system. Th
 
 ## Activity 3: Machine Learning - Student Segmentation & Risk Detection
 
-### Overview
+### 1. Project Overview
 In this phase, I shifted from rule-based scoring to **Unsupervised Machine Learning**. Using the K-Means clustering algorithm, I segmented the student population into four distinct behavioral groups. This allows the system to detect "hidden" risk patterns such as students with high grades but dangerously low wellness scores that traditional threshold based systems might overlook.
 
-### Key Machine Learning Tasks:
+### 2. Key Machine Learning Tasks:
 * **Data Preprocessing:** Standardizing features (APS, WWS, PTMS, CRS) to ensure distance-based clustering accuracy.
 * **K-Means Clustering:** Iterative grouping of students into 4 clusters based on multi-dimensional similarity.
 * **Segment Analysis:** Mapping clusters to specific personas like "Burnout Risk" and "High Performer."
 
-### Repository Contents:
+### 3. Repository Contents:
 * `student_segmentation.ipynb`: The notebook containing the ML pipeline and visualization.
 * `Cluster_Interpretation.pdf`: Detailed analysis of the 4 detected student groups.
 * `Recommendations for Each Cluster Type.pdf`: Targeted intervention strategies for each cluster.

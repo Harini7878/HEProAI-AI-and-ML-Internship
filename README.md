@@ -39,3 +39,31 @@ In this phase, I shifted from rule-based scoring to **Unsupervised Machine Learn
 * `student_segmentation.ipynb`: The notebook containing the ML pipeline and visualization.
 * `Cluster_Interpretation.pdf`: Detailed analysis of the 4 detected student groups.
 * `Recommendations for Each Cluster Type.pdf`: Targeted intervention strategies for each cluster.
+
+## Activity 4: Mentor Matching & Intervention Recommendations
+
+###  Objective
+The final phase of the HEPro AI+ project focuses on **Operationalizing AI Insights**. The goal is to translate the patterns discovered by the K-Means clustering algorithm into a functional human-centric support system by automatically matching students with specialized mentors.
+
+###  Key Features
+* **Automated Mentor Dataset Creation**: A dynamic Python script that generates a database of mentors with specific specializations (Academic, Wellness, Career) and tracks their current workload capacity.
+* **Intelligent Matching Logic**: 
+    * Identifies the student's primary area of need based on their ML Cluster assignment.
+    * Matches students with mentors based on **Expertise Alignment**.
+    * Implements **Load Balancing** to ensure mentors are assigned based on availability, preventing burnout.
+* **Proactive Alert System**: High-risk students (Cluster 1: Burnout and Cluster 2: At-Risk) are automatically flagged with `🚩 CRITICAL` alerts to ensure mentors prioritize their intervention.
+
+###  Activity 4 Repository Structure
+| File | Description |
+| :--- | :--- |
+| `mentor_matching.py` | The main engine that creates the mentor database and executes the matching logic. |
+| `mentors.csv` | The generated database of mentor profiles and capacity tracking. |
+| `final_recommendations.csv` | The output table mapping all 60 students to specific mentors and intervention playbooks. |
+| `Final_Recommendation_Table.pdf` | A formal report summarizing the assignment matrix and priority levels. |
+| `End_to_End_Flow_Explanation.pdf` | A technical document explaining the internal logic of the matching pipeline. |
+
+###  How to Run the Logic
+1. Ensure the `student_clusters.csv` (from Activity 3) is in the root directory.
+2. Run the matching script:
+   ```bash
+   python mentor_matching.py

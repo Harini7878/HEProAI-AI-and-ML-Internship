@@ -51,7 +51,7 @@ The final phase of the HEPro AI+ project focuses on **Operationalizing AI Insigh
     * Identifies the student's primary area of need based on their ML Cluster assignment.
     * Matches students with mentors based on **Expertise Alignment**.
     * Implements **Load Balancing** to ensure mentors are assigned based on availability, preventing burnout.
-* **Proactive Alert System**: High-risk students (Cluster 1: Burnout and Cluster 2: At-Risk) are automatically flagged with `🚩 CRITICAL` alerts to ensure mentors prioritize their intervention.
+* **Proactive Alert System**: High-risk students (Cluster 1: Burnout and Cluster 2: At-Risk) are automatically flagged with ` CRITICAL` alerts to ensure mentors prioritize their intervention.
 
 ###  Activity 4 Repository Structure
 | File | Description |
@@ -62,8 +62,4 @@ The final phase of the HEPro AI+ project focuses on **Operationalizing AI Insigh
 | `Final_Recommendation_Table.pdf` | A formal report summarizing the assignment matrix and priority levels. |
 | `End_to_End_Flow_Explanation.pdf` | A technical document explaining the internal logic of the matching pipeline. |
 
-###  How to Run the Logic
-1. Ensure the `student_clusters.csv` (from Activity 3) is in the root directory.
-2. Run the matching script:
-   ```bash
-   python mentor_matching.py
+
